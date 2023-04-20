@@ -1,5 +1,6 @@
 #include <stdio.h>
-// this is a basic bubble sort
+// this is a basic bubble sor
+// unfortunately Bubble Sort is not that very eficcient 
 
 void sort(int array[], int size) //for an array of char,change int for char
 {
