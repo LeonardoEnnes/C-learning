@@ -1,0 +1,7 @@
+- int (interio 16bits) = %d ou %i 
+- long int (inteiro 32bits) = %li
+- lon long int (inteiro 64bits) = %lli
+- float (real precição simples) = %f
+- double (real precição dupla) = %lf
+- char (um unico caractere) = %c
+- char [  ] (string) = 
