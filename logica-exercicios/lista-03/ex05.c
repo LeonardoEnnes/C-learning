@@ -20,7 +20,7 @@ int main(){
 
   idade = anoAtual - anoNasc;
 
-  if(idade >= 0 && idade <= 100){
+  if(idade >= 0 && idade <= 125){
     printf("\n A pessoa tem %d anos de idade", idade);
   }else{
     printf("\n A idade informada nao e valida", idade);

@@ -21,7 +21,7 @@ int main(){
 
   if(golTime1 > golTime2){
     printf("O time vencedor e %s que marcou %d gols", time1, golTime1);
-  }else if(golTime2 > golTime2){
+  }else if(golTime2 > golTime1){
     printf("O time vencedor e %s que marcou %d gols", time2, golTime2);
   }else{
     printf("EMPATE");

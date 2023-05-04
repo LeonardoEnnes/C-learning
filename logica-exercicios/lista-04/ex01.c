@@ -10,9 +10,9 @@ int main(){
   printf("\nDIGITE OS TRES NUMEROS: \n");
   scanf("%d %d %d", &n1, &n2, &n3);
 
-  if(n1 < n2 && n1 < n3){
+  if(n1 <= n2 && n1 <= n3){ /*alterei para menor ou igual ao inves de só menor*/
     menor = n1;
-  }else if(n2 < n3){
+  }else if(n2 <= n3){
     menor = n2;
   }else{
     menor = n3;

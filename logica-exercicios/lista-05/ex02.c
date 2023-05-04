@@ -15,21 +15,21 @@ int main(){
     return 0;
   }
 
-  if( R == 0 & G == 0 & B == 0){
+  if( R == 0 && G == 0 && B == 0){
     printf("\n Preto");
-  }else if(R == 1 & G == 0 & B == 0){
+  }else if(R == 1 && G == 0 && B == 0){
     printf("\n Vermelho");
-  }else if(R == 0 & G == 1 & B == 0){
+  }else if(R == 0 && G == 1 && B == 0){
     printf("\n Verde");
-  }else if(R == 0 & G == 0 & B == 1){
+  }else if(R == 0 && G == 0 && B == 1){
     printf("\n Azul");
-  }else if(R == 1 & G == 1 & B == 0){
+  }else if(R == 1 && G == 1 && B == 0){
     printf("\n Amarelo");
-  }else if(R == 1 & G == 0 & B == 1){
+  }else if(R == 1 && G == 0 && B == 1){
     printf("\n Rosa");
-  }else if(R == 0 & G == 1 & B == 1){
+  }else if(R == 0 && G == 1 && B == 1){
     printf("\n Ciano");
-  }else if(R == 1 & G == 1 & B == 1){
+  }else if(R == 1 && G == 1 && B == 1){
     printf("\n Branco");
   }
 
