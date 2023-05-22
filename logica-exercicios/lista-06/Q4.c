@@ -19,11 +19,11 @@ int main(){
                      "oitenta", "oitenta e um", "oitenta e dois", "oitenta e tres", "oitenta e quatro", "oitenta e cinco"};
 
   int numero;
-  printf("Digite um número de 0 a 85: ");
+  printf("Digite um numero de 0 a 85: ");
   scanf("%d", &numero);
 
-  if(numero < 0 || numero > 85) {
-    printf("Número inválido.\n");
+  if(numero < 1 || numero > 85) {
+    printf("OPCAO INVALIDA. REPETINDO OPCOES \n");
   } else {
     printf("%s\n", numeros[numero]);
   }
